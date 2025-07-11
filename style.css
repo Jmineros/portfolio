@@ -36,3 +36,27 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: #161b22;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(88, 166, 255, 0.2);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #58a6ff;
+}
+
+.card a {
+  color: #8b949e;
+  text-decoration: underline;
+}
